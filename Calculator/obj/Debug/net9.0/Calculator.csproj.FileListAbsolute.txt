@@ -12,3 +12,4 @@ C:\Users\ayesh\MyWork\learn_C#\Calculator\Calculator\obj\Debug\net9.0\refint\Cal
 C:\Users\ayesh\MyWork\learn_C#\Calculator\Calculator\obj\Debug\net9.0\Calculator.pdb
 C:\Users\ayesh\MyWork\learn_C#\Calculator\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
 C:\Users\ayesh\MyWork\learn_C#\Calculator\Calculator\obj\Debug\net9.0\ref\Calculator.dll
+C:\Users\ayesh\MyWork\learn_C#\Calculator\Calculator\obj\Debug\net9.0\Calculator.sourcelink.json
