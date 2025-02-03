@@ -4,18 +4,18 @@
     {
         static void Main(string[] args)
         {
-            int num1;
-            int num2;
+            double num1;
+            double num2;
             int operation;
-            int result;
+            double result;
 
             Console.WriteLine("Hello, Welcome to the calculator program");
             
             Console.Write("Please Enter your first Number: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Please Enter your second Number: ");
-            num2 = Convert.ToInt32(Console.ReadLine()); 
+            num2 = Convert.ToDouble(Console.ReadLine()); 
 
             Console.WriteLine("Enter Number of Operation you want to do:\n1. +\n2. -\n3. *\n4. /");
             operation = Convert.ToInt32(Console.ReadLine());
@@ -37,11 +37,16 @@
             }
             else
             {
+                if(num2 == 0)
+                {
+                    Console.WriteLine("You can not devide by zero");
+                    return;
+                }
                 result = num1 / num2;
                 Console.WriteLine($"{num1} / {num2} = {result}");
             }
 
-
+            Console.ReadKey();
         }
     }
 }
